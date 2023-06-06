@@ -4,13 +4,14 @@ import Rating from "../../components/rating";
 const ProductCard = (props) => {
     const { title, description, price, rating, image } = props.product;
     return (
-        <div className="max-w-[260px] bg-[#1b1b1b] shadow-md rounded-2xl ">
+        <div className="max-w-[260px] bg-[#1b1b1b] shadow-md rounded-2xl border ">
             <Image
                 src={image}
                 alt="Image du produit"
                 width={260}
                 height={250}
-                className="object-cover rounded-t-2xl opacity-90 hover:opacity-100 transition-colors"
+                
+                className="object-cover rounded-t-2xl opacity-90 hover:opacity-100 transition-colors border h-40"
             />
             <div className="relative h-48 p-3 space-y-2">
                 <h1 className="font-medium text-2xl">{title}</h1>
