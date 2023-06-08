@@ -10,7 +10,8 @@ const ProductCard = (props) => {
                 alt="Image du produit"
                 width={260}
                 height={250}
-                className="object-cover rounded-t-2xl opacity-90 hover:opacity-100 transition-colors"
+                style={{width:"260px",height:"250px",objectFit:"cover"}}
+                className="rounded-t-2xl opacity-90 hover:opacity-100 transition-colors"
             />
             <div className="relative h-48 p-3 space-y-2">
                 <h1 className="font-medium text-2xl">{title}</h1>
