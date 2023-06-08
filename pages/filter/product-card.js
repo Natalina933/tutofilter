@@ -4,7 +4,7 @@ import Rating from "../../components/rating";
 const ProductCard = (props) => {
     const { title, description, price, rating, image } = props.product;
     return (
-        <div className="max-w-[260px] bg-[#1b1b1b] shadow-md rounded-2xl ">
+        <div className="max-w-[260px] bg-[#1b1b1b] shadow-md rounded-2xl border ">
             <Image
                 src={image}
                 alt="Image du produit"

@@ -14,5 +14,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/aspect-ratio')],//conserve un format d'image 1:1 (carré),
 }

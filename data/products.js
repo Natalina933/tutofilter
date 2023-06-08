@@ -37,7 +37,7 @@ export const products = [
     },
     {
         id: 5,
-        title: "accusamus beataee qui sunt",
+        title: " beataee qui sunt",
         image: "/images/image5.jpg",
         description:"2velopment of English than any other'.",
         price: 100,
@@ -46,7 +46,7 @@ export const products = [
     },
     {
         id: 6,
-        title: "accusamus beatae qui sunt",
+        title: "accusamus qui sunt",
         image: "/images/image6.jpg",
         description:
             "2011 sees the an any other'.",
